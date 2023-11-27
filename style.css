@@ -1,0 +1,47 @@
+.link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #fff;
+  }
+  .link-wrapper {
+    position: relative;
+  
+  }
+  
+  .hover-6:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    height: 3px;
+    background-color: #AA151B;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s;
+  }
+  .hover-6:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    height: 3px;
+    background-color: #AA151B;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s;
+  }
+  .hover-6:hover:before {
+    transform: scaleX(1);
+  }
+  .hover-6:hover:after {
+    transform: scaleX(1);
+  }
+  
+  .navbar {
+    background-color: black;
+  }
+  
