@@ -1,65 +1,75 @@
 body{
   background-color: gray;
+  justify-content: center;
+  text-align: center;
 }
 
 
 
 /* navstyle */
 .link {
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    padding: 10px 0;
-    color: #fff;
-  }
-  .link-wrapper {
-    position: relative;
-  
-  }
-  
-  .hover-6:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 50%;
-    height: 3px;
-    background-color: #000080;
-    transform: scaleX(0);
-    transform-origin: bottom left;
-    transition: transform 0.3s;
-  }
-  .hover-6:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 50%;
-    height: 3px;
-    background-color: #000080;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.3s;
-  }
-  .hover-6:hover:before {
-    transform: scaleX(1);
-  }
-  .hover-6:hover:after {
-    transform: scaleX(1);
-  }
-  
-  .navbar {
-    background-color: #343a40;
-  }
-  /* navstyle */
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  padding: 10px 0;
+  color: #fff;
+}
+.link-wrapper {
+  position: relative;
 
-  
-.header{
-  padding: 5px;
 }
 
-  .bg-hero-img{
-      background-image: url(cq5dam.web.374.210.jpeg);
-      background-position: center center;
+.hover-6:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+  height: 3px;
+  background-color: #000080;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.3s;
+}
+.hover-6:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 50%;
+  height: 3px;
+  background-color: #000080;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+}
+.hover-6:hover:before {
+  transform: scaleX(1);
+}
+.hover-6:hover:after {
+  transform: scaleX(1);
+}
+
+.navbar {
+  background-color: #343a40;
+}
+/* navstyle */
+
+
+/* carousel */
+  .img1{
+    max-width: 50%;
+    margin: 0% 25%;
   }
-  
+
+.cooltext{
+  font-family: 'Courier New', Courier, monospace;
+}
+/* carousel */
+
+
+
+
+
+
+
