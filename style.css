@@ -1,3 +1,10 @@
+body{
+  background-color: gray;
+}
+
+
+
+/* navstyle */
 .link {
     display: inline-block;
     position: relative;
@@ -17,7 +24,7 @@
     left: 0;
     right: 50%;
     height: 3px;
-    background-color: #AA151B;
+    background-color: #000080;
     transform: scaleX(0);
     transform-origin: bottom left;
     transition: transform 0.3s;
@@ -29,7 +36,7 @@
     right: 0;
     left: 50%;
     height: 3px;
-    background-color: #AA151B;
+    background-color: #000080;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.3s;
@@ -42,6 +49,17 @@
   }
   
   .navbar {
-    background-color: black;
+    background-color: #343a40;
+  }
+  /* navstyle */
+
+  
+.header{
+  padding: 5px;
+}
+
+  .bg-hero-img{
+      background-image: url(cq5dam.web.374.210.jpeg);
+      background-position: center center;
   }
   
