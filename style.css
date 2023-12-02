@@ -6,7 +6,7 @@ body{
 
 
 
-/* navstyle */
+/* navstyle got hover from https://www.sliderrevolution.com/resources/css-link-hover-effects/    */
 .link {
   display: inline-block;
   position: relative;
@@ -26,7 +26,7 @@ body{
   left: 0;
   right: 50%;
   height: 3px;
-  background-color: #000080;
+  background-color: lightblue;
   transform: scaleX(0);
   transform-origin: bottom left;
   transition: transform 0.3s;
@@ -38,7 +38,7 @@ body{
   right: 0;
   left: 50%;
   height: 3px;
-  background-color: #000080;
+  background-color: lightblue;
   transform: scaleX(0);
   transform-origin: bottom right;
   transition: transform 0.3s;
@@ -68,6 +68,9 @@ body{
 /* carousel */
 
 
+/*cards */
+
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -93,3 +96,65 @@ body{
     flex: 0 0 calc(50% - 40px);
   }
 }
+
+/*cards */
+
+
+
+/*button style https://www.sliderrevolution.com/resources/css-button-hover-effects/ */
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  position: relative;
+  display: block;
+  color: black;
+  font-size: 14px;
+  font-family: "montserrat";
+  text-decoration: none;
+  margin: 30px 0;
+  border: 2px solid lightblue;
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.btn::before{
+  background: lightblue;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.btn3::before{
+  width: 100%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+.btn3:hover::before{
+  height: 450%;
+}
+
+/*button style */
+
+/*footer hover/footerstyle */
+.footerhover:hover{
+  animation: bounce .3s infinite alternate;
+  
+}
+
+@keyframes bounce {
+  to { transform: scale(1.2); }
+}
+
+.footerstyle{
+  bottom: 0;
+}
+/*footer hover  */
