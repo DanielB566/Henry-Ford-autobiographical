@@ -19,6 +19,8 @@ body{
 
 }
 
+
+
 .hover-6:before {
   content: '';
   position: absolute;
@@ -64,6 +66,7 @@ body{
 
 .cooltext{
   font-family: 'Courier New', Courier, monospace;
+  margin: 5px;
 }
 /* carousel */
 
